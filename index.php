@@ -8,7 +8,6 @@ Page index.php fait par LAUDE Thibault
     <title></title>
   </head>
   <body>
-    <p>Salut</p>
     <?php
     include 'classes/employe.php';
     include 'includes/Traitement.php';

@@ -19,6 +19,12 @@ class Traitement {
     echo $e;
     
   }
+  
+  public static function instanciationProjetV1(): void {
+    $p = new Projet('PR7', 'Librairie Gelistout', 102);
+    echo $p ;
+    echo "Nom du projet = " . $p->getNomProjet();
+  }
 
   /* ->getNom();
     echo "l'employé instancié s'appelle " . $nom;
