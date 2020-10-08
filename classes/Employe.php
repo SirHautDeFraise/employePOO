@@ -1,11 +1,5 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of Employe
  *
@@ -45,6 +39,11 @@ class Employe {
 
   function getSalaireM(): float {
     return $this->salaireM;
+  }
+  
+  public function __toString(): string {
+    return $this->numero . " - " .$this->getNom() . " - " .$this->getPrenom(). " - "
+            . $this->dateDeNaissance->format('d/m/Y') . " - ". $this->getSalaireM();
   }
 
 }
