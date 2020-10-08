@@ -15,6 +15,8 @@ Page index.php fait par LAUDE Thibault
 
     try {
       Traitement::instanciationUnEmploye();
+      Traitement::instanciationUnEmployeErreur();
+      Traitement::instanciationUnEmploye();
     } catch (Exception $ex) {
       echo $ex->getMessage();
     }
