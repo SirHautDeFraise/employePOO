@@ -10,7 +10,14 @@ Page index.php fait par LAUDE Thibault
   <body>
     <p>Salut</p>
     <?php
-    // put your code here uwu
+    include 'classes/employe.php';
+    include 'includes/Traitement.php';
+
+    try {
+      Traitement::instanciationUnEmploye();
+    } catch (Exception $ex) {
+      echo $ex->getMessage();
+    }
     ?>
   </body>
 </html>
