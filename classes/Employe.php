@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description of Employe
+ * Description de la classe Employe
  *
  * @author laude.thibault
  */
