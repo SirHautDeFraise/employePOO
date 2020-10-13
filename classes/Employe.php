@@ -47,7 +47,7 @@ class Employe {
       $this->salaireM=$salaireM;
     }
     else{
-      throw new Exception("le salaire ne doit pas être inférieur à " . self::MINSALAIRE);
+      throw new Exception(" | le salaire ne doit pas être inférieur à " . self::MINSALAIRE);
     }
   }
   
