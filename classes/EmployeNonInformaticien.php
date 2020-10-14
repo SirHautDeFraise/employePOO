@@ -25,6 +25,8 @@ class EmployeNonInformaticien extends Employe{
     public function getPrimeA(): float {
         return $this->primeA;
     }
+    
+    public abstract function gainAnnuel() : float;
 
     public function __toString(): string {
         return "Non Informaticien : " . $this->numero . " - " . $this->getNom() . " - " . $this->getPrenom() . " - "

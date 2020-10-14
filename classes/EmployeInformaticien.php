@@ -25,6 +25,8 @@ class EmployeInformaticien extends Employe {
     public function getPrimeM(): float {
         return $this->primeM;
     }
+    
+    public abstract function gainAnnuel() : float;
 
     public function __toString(): string {
         return "Informaticien : " . $this->numero . " - " . $this->getNom() . " - " . $this->getPrenom() . " - "
