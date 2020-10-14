@@ -5,7 +5,7 @@
  *
  * @author Thibault
  */
-class EmployeNonInformaticien {
+class EmployeNonInformaticien extends Employe{
 
     private float $primeA;
 
